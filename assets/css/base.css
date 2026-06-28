@@ -1,0 +1,82 @@
+/* ==========================================================
+   Project : SPYRION Technologies
+   File    : base.css
+   Purpose : Global Reset & Base Styles
+   Version : 2.0.0
+   ========================================================== */
+
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Smooth Scrolling */
+
+html{
+    scroll-behavior:smooth;
+}
+
+/* Body */
+
+body{
+
+    background:var(--primary);
+    color:var(--text);
+
+    font-family:Inter,Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
+
+    font-size:16px;
+    line-height:1.6;
+
+    overflow-x:hidden;
+
+}
+
+/* Links */
+
+a{
+
+    text-decoration:none;
+    color:inherit;
+
+}
+
+/* Images */
+
+img{
+
+    max-width:100%;
+    display:block;
+
+}
+
+/* Lists */
+
+ul{
+
+    list-style:none;
+
+}
+
+/* Buttons */
+
+button{
+
+    border:none;
+    outline:none;
+    cursor:pointer;
+
+}
+
+/* Inputs */
+
+input,
+textarea{
+
+    border:none;
+    outline:none;
+
+}

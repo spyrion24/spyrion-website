@@ -1,0 +1,99 @@
+/* ==========================================================
+   Project : SPYRION Technologies
+   File    : layout.css
+   Purpose : Layout System
+   Version : 2.0.0
+   ========================================================== */
+
+/* Container */
+
+.container{
+
+    width:min(1280px,90%);
+    margin:auto;
+
+}
+
+/* Section */
+
+.section{
+
+    padding:100px 0;
+
+}
+
+/* Grid */
+
+.grid{
+
+    display:grid;
+    gap:30px;
+
+}
+
+/* Two Column */
+
+.grid-2{
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+}
+
+/* Three Column */
+
+.grid-3{
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+}
+
+/* Four Column */
+
+.grid-4{
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+}
+
+/* Flex */
+
+.flex{
+
+    display:flex;
+
+}
+
+.flex-center{
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+}
+
+.flex-between{
+
+    display:flex;
+
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+    .grid-2,
+    .grid-3,
+    .grid-4{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

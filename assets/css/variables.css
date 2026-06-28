@@ -1,0 +1,47 @@
+/* ==========================================
+   SPYRION DESIGN SYSTEM
+   Version : 2.0
+   Author  : SPYRION Technologies
+========================================== */
+
+:root{
+
+    /* Brand Colors */
+
+    --primary:#020617;
+    --secondary:#0F172A;
+    --accent:#38BDF8;
+    --success:#22C55E;
+    --warning:#F59E0B;
+    --danger:#EF4444;
+
+    /* Text */
+
+    --text:#F8FAFC;
+    --text-light:#CBD5E1;
+    --text-muted:#94A3B8;
+
+    /* Borders */
+
+    --border:#1E293B;
+
+    /* Cards */
+
+    --card:#111827;
+
+    /* Radius */
+
+    --radius-sm:8px;
+    --radius-md:16px;
+    --radius-lg:24px;
+
+    /* Shadows */
+
+    --shadow:
+    0 10px 30px rgba(0,0,0,.35);
+
+    /* Transition */
+
+    --transition:.3s ease;
+
+}

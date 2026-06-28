@@ -1,0 +1,21 @@
+/* ==========================================================
+   Project : SPYRION Technologies
+   File    : style.css
+   Purpose : Master Stylesheet
+   Version : 2.0.0
+   ========================================================== */
+
+/* Design System */
+@import url("variables.css");
+
+/* Base */
+@import url("base.css");
+
+/* Layout */
+@import url("layout.css");
+
+/* Components */
+@import url("components.css");
+
+/* Animations */
+@import url("animations.css");
