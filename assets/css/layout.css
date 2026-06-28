@@ -14,6 +14,40 @@
 
 }
 
+/* Container */
+
+.container{
+
+    width:min(1280px,90%);
+    margin:auto;
+
+}
+
+/* Hero */
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+/* Section */
+
+.section{
+
+    padding:100px 0;
+
+}
+
+
 /* Section */
 
 .section{
