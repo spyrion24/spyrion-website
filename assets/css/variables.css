@@ -8,12 +8,21 @@
 
     /* Brand Colors */
 
-    --primary:#020617;
-    --secondary:#0F172A;
-    --accent:#38BDF8;
-    --success:#22C55E;
-    --warning:#F59E0B;
-    --danger:#EF4444;
+--primary:#2563EB;        /* SPYRION Blue */
+
+--secondary:#16213E;      /* Deep Navy */
+
+--bg-primary:#0F172A;     /* Main Background */
+
+--bg-secondary:#172554;   /* Secondary Background */
+
+--accent:#60A5FA;         /* Accent Blue */
+
+--success:#22C55E;
+
+--warning:#F59E0B;
+
+--danger:#EF4444;
 
     /* Text */
 
@@ -27,7 +36,7 @@
 
     /* Cards */
 
-    --card:#111827;
+    --card:#1E293B;
 
     /* Radius */
 

@@ -23,7 +23,7 @@ html{
 
 body{
 
-    background:var(--primary);
+   background:var(--bg-primary);
     color:var(--text);
 
     font-family:Inter,Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
